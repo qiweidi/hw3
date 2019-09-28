@@ -5,7 +5,6 @@ function setup() {
 
 var x = 0;
 var h = 10;
-let height = 159;
 
 function draw() {
   stroke(random(60, 70), 100, 90);
@@ -19,7 +18,7 @@ function draw() {
     h = h + 3;
   }
 
-  if (random(100) > 99.9) {
+  if (random(50) > 49.9) {
     fill(255);
     rect(0, 0, width, height-15);
     h = 10;
